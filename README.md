@@ -49,9 +49,9 @@ of rough options you have to choose between blind.
 
 |  |  |  |
 |:-:|:-:|:-:|
-| <img src="./assets/screenshots/hero.webp" alt="The ArchCanvas landing page: an ivory-paper hero with the headline 'Design architecture with precision' and a Start designing call to action" width="280" /> | <img src="./assets/screenshots/how-it-works.webp" alt="How it works: three steps — describe your brief, generate the floor plan and rendering, iterate on an infinite canvas" width="280" /> | <img src="./assets/screenshots/canvas.webp" alt="The ArchCanvas studio: a compiled floor plan on the infinite canvas beside the conversation panel" width="280" /> |
+| <img src="./assets/screenshots/hero.webp" alt="The ArchCanvas landing page: an aubergine hero reading Describe your home, get a real dimensioned floor plan, with a typed brief beside the plan it compiled to" width="280" /> | <img src="./assets/screenshots/what-you-get.webp" alt="What you actually get: a plan precise enough to take to a professional, over three cards — checked, dimensioned to the millimetre, and renderings grounded in the plan" width="280" /> | <img src="./assets/screenshots/canvas.webp" alt="The ArchCanvas studio: a compiled floor plan on the infinite canvas beside the conversation panel" width="280" /> |
 
-<img src="./assets/screenshots/demo.gif" alt="A scroll through the ArchCanvas landing page, showing the hero, the three-step workflow and the pay-per-result pricing" width="860" />
+<img src="./assets/screenshots/demo.gif" alt="A scroll through the ArchCanvas landing page: the hero compiling a brief into a plan, the real-plans gallery, and the pay-per-result pricing tiles" width="860" />
 
 </div>
 
