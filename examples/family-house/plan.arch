@@ -1,0 +1,87 @@
+plan "Three-bed Family House" {
+  units mm
+  grid 50
+  scale 1:100
+  north up
+  dims auto all
+
+  # The road is on the south and the garden on the north. South of the equator
+  # that puts the garden and the sun on the same side, so every room people sit
+  # or sleep in takes the north facade and the service band faces the street.
+  site { street south hemisphere south }
+
+  let W = 12400
+  let D = 9800
+  let SPINE = 4400      # depth of the garden band
+  let HALL  = 1500      # the hall runs the full width behind it
+
+  wall id=shell     exterior  thickness 200 { (0,0) (W,0) (W,D) (0,D) close }
+  wall id=w_spine   partition thickness 100 { (0,SPINE) (W,SPINE) }
+  wall id=w_b1      partition thickness 100 { (4400,0) (4400,SPINE) }
+  wall id=w_b2      partition thickness 100 { (7800,0) (7800,SPINE) }
+  wall id=w_b3      partition thickness 100 { (10200,0) (10200,SPINE) }
+  wall id=w_kitchen partition thickness 100 { (3200,SPINE) (3200,D) }
+  wall id=w_service partition thickness 100 { (3200,5900) (W,5900) }
+  wall id=w_bath    partition thickness 100 { (6000,5900) (6000,D) }
+  wall id=w_util    partition thickness 100 { (8400,5900) (8400,D) }
+
+  # Garden band (north)
+  room id=r_living at (0,0)     size 4400x4400 label "Living / Dining" uses living dining
+  room id=r_bed1   at (4400,0)  size 3400x4400 label "Bedroom 1"       uses bedroom
+  room id=r_bed2   at (7800,0)  size 2400x4400 label "Bedroom 2"       uses bedroom
+  room id=r_bed3   at (10200,0) size 2200x4400 label "Bedroom 3"       uses bedroom
+  # Kitchen takes the whole west return; the hall runs behind the bedrooms
+  room id=r_kitchen at (0,SPINE)    size 3200x5400 label "Kitchen"  uses kitchen
+  room id=r_hall    at (3200,SPINE) size 9200x1500 label "Hall"     uses hall circulation
+  # Street band (south)
+  room id=r_bath  at (3200,5900) size 2800x3900 label "Bath"            uses bath
+  room id=r_util  at (6000,5900) size 2400x3900 label "Laundry"         uses utility
+  room id=r_entry at (8400,5900) size 4000x3900 label "Entry / Study"   uses entry office
+
+  # ---- doors ---------------------------------------------------------------
+  door    id=d_front  at (10400,9800) width 1000 wall shell hinge left swing into r_entry
+  opening id=o_entry  on w_service at 7000 width 1200
+  # Bifold doors fold flat into their own opening — the whole living room opens
+  # onto the garden without a leaf eating the floor.
+  door    id=d_garden bifold at (2200,0) width 2400 wall shell
+  opening id=o_kitchen on w_spine at 1600 width 1400
+  opening id=o_hall    on w_spine at 3700 width 1200
+  door    id=d_bed1   on w_spine at 6100  width 800 swing into r_bed1
+  door    id=d_bed2   on w_spine at 9000  width 800 swing into r_bed2
+  door    id=d_bed3   on w_spine at 11300 width 800 swing into r_bed3
+  door    id=d_bath   on w_service at 1400 width 800 swing into r_bath
+  door    id=d_util   bifold on w_service at 4000 width 800
+  opening id=o_kit_hall on w_kitchen at 750 width 1000
+
+  # ---- windows: every habitable room on the garden (north) facade ----------
+  window id=win_living at (900,0)      width 1800 wall shell
+  window id=win_bed1   at (6100,0)     width 1600 wall shell
+  window id=win_bed2   at (9000,0)     width 1400 wall shell
+  window id=win_bed3   at (11300,0)    width 1400 wall shell
+  window id=win_b3_e   at (12400,2200) width 900  wall shell
+  window id=win_west   at (0,2200)     width 1400 wall shell
+  window id=win_kitchen at (0,6200)    width 1400 wall shell
+  window id=win_bath   at (4600,9800)  width 600  wall shell
+  window id=win_util   at (7200,9800)  width 600  wall shell
+  window id=win_entry  at (12400,7800) width 1200 wall shell
+  window id=win_hall   at (12400,5150) width 900  wall shell
+
+  # ---- fixtures ------------------------------------------------------------
+  furniture id=f_sink   kitchen_sink against wall shell segment 3 offset 3400 in r_kitchen
+  furniture id=f_stove  stove        against wall shell segment 3 offset 4200 in r_kitchen
+  furniture id=f_fridge fridge       against wall shell segment 3 offset 5000 in r_kitchen
+  furniture id=f_ktable table in r_kitchen anchor bottom flush inset 400 size 1600x900 label "Table"
+  furniture id=f_sofa   sofa  in r_living anchor bottom-left flush inset 400 size 2200x900
+  furniture id=f_ltable table in r_living anchor bottom-right flush inset 400 size 1200x700
+  furniture id=f_bed1   bed   in r_bed1 anchor top-left flush inset 300 size 1600x2100 label "Double"
+  furniture id=f_ward1  wardrobe in r_bed1 anchor bottom-right flush size 600x1800
+  furniture id=f_bed2   bed   in r_bed2 anchor top-left flush inset 300 size 1200x2000 label "Single"
+  furniture id=f_bed3   bed   in r_bed3 anchor top-left flush inset 300 size 1200x2000 label "Single"
+  furniture id=f_bathtub bathtub in r_bath anchor bottom flush size 1700x750
+  furniture id=f_basin  basin in r_bath anchor top-right    flush size 600x450
+  furniture id=f_wc     wc    in r_bath anchor top-left     flush size 400x700
+  furniture id=f_counter counter in r_util anchor bottom flush size 1600x600
+  furniture id=f_desk   desk  in r_entry anchor top-right flush inset 300 size 1600x800 label "Desk"
+
+  title { project "Three-bed Family House" drawn_by "ArchCanvas" }
+}

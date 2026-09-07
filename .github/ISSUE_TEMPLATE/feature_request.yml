@@ -1,0 +1,45 @@
+name: "Feature request"
+description: "Something ArchCanvas should be able to do and can't."
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a look at the [roadmap](../blob/main/ROADMAP.md) first — it may already be on it, and
+        it also lists a few things that are deliberately **not** planned.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: |
+        Describe the situation, not the solution. "I'm renovating a flat with load-bearing walls I
+        can't move and there's no way to tell it that" is more useful than "add a wall-lock button".
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would solve it
+      description: "Your proposed solution, if you have one in mind."
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you do today instead
+      description: "The workaround, if any — it tells us how painful this actually is."
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the product
+      options:
+        - "Designing — the brief, the questions, the first plan"
+        - "Refining — editing on the canvas"
+        - "Exports and files"
+        - "Renderings"
+        - "Sharing and collaboration"
+        - "Account, credits, billing"
+        - "Something else"

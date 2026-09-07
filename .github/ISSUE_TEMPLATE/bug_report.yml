@@ -1,0 +1,66 @@
+name: "Bug report"
+description: "Something in ArchCanvas is broken — it hung, it errored, it exported a file that won't open."
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Two things first:
+
+        - **Account, payment or refund problems** → email chanmeng.dev@gmail.com instead. Don't put
+          order details in a public issue.
+        - **A security vulnerability** → follow [SECURITY.md](../blob/main/SECURITY.md). Never a
+          public issue.
+        - **A plan that came out wrong** → use the *Plan quality report* template instead; it asks
+          the right questions.
+
+        This issue is public. Please redact anything you wouldn't want indexed.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: "What you did, and what happened instead of what you expected."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to the dashboard
+        2. Describe "a two-bed flat with a study"
+        3. Press Enter
+        4. …
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      description: "The page or panel — e.g. the canvas, the brief composer, billing, a share link."
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot, error text, or the exported file
+      description: "Anything the browser told you, verbatim, helps a lot."
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: "Chrome 141 on Windows 11 / Safari on iPhone 15"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I searched existing issues and this isn't already reported"
+          required: true
+        - label: "There's nothing private in what I've pasted above"
+          required: true

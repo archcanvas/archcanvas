@@ -1,0 +1,43 @@
+plan "Studio Loft" {
+  units mm
+  grid 50
+  paper A3 landscape
+  north up
+  dims auto all
+  schedule rooms
+  legend
+
+  let W = 6000
+  let D = 7600
+  let CORE = 4200
+
+  wall id=shell  exterior  thickness 200 { (0,0) (W,0) (W,D) (0,D) close }
+  wall id=w_core partition thickness 100 { (CORE,0) (CORE,D) }
+  wall id=w_bath partition thickness 100 { (CORE,4600) (W,4600) }
+
+  room id=r_studio at (0,0)        size 4200x7600 label "Studio / Kitchen" uses living kitchen
+  room id=r_alcove at (CORE,0)     size 1800x4600 label "Sleeping Alcove"  uses bedroom
+  room id=r_bath   at (CORE,4600)  size 1800x3000 label "Bath"             uses bath
+
+  door    id=d_front  on shell  at 16400 width 1000 hinge left swing into r_studio
+  opening id=o_alcove on w_core at 1500  width 1000
+  door    id=d_bath   on w_core at 6000  width 800  swing into r_bath
+
+  window id=win_n     at (1400,0)    width 1600 wall shell
+  window id=win_w     at (0,5000)    width 1600 wall shell
+  window id=win_alcove at (6000,2000) width 1200 wall shell
+  window id=win_bath  at (6000,6400) width 600  wall shell
+
+  # Kitchen run backed onto the north wall, sizes from the fixture catalogue.
+  furniture id=f_sink  kitchen_sink against wall shell segment 0 offset 700 in r_studio
+  furniture id=f_stove stove        against wall shell segment 0 offset 1550 in r_studio
+  furniture id=f_fridge fridge      against wall shell segment 0 offset 2350 in r_studio
+  furniture id=f_sofa  sofa  in r_studio anchor bottom-left flush inset 500 size 1900x850
+  furniture id=f_table table in r_studio anchor left  inset 500 size 1100x700
+  furniture id=f_bed   bed   in r_alcove anchor top   flush inset 300 size 1400x1900 label "Double"
+  furniture id=f_basin basin in r_bath   anchor top-right    flush size 600x450
+  furniture id=f_wc    wc    in r_bath   anchor bottom-right flush size 400x700
+  furniture id=f_shower shower in r_bath anchor bottom-left  flush size 900x900
+
+  title { project "Studio Loft" drawn_by "ArchCanvas" }
+}

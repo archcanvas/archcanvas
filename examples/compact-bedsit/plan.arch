@@ -1,0 +1,40 @@
+plan "Compact Bedsit" {
+  units mm
+  grid 50
+  scale 1:50
+  north up
+  dims auto all
+
+  let W = 5200
+  let D = 6600
+  let CORE = 3600
+
+  wall id=shell  exterior  thickness 200 { (0,0) (W,0) (W,D) (0,D) close }
+  wall id=w_core partition thickness 100 { (CORE,0) (CORE,D) }
+  wall id=w_bath partition thickness 100 { (CORE,4000) (W,4000) }
+
+  room id=r_living at (0,0)       size 3600x6600 label "Living / Sleep / Kitchen" uses living kitchen
+  room id=r_store  at (CORE,0)    size 1600x4000 label "Wardrobe" uses storage
+  room id=r_bath   at (CORE,4000) size 1600x2600 label "Bath"     uses bath
+
+  # Three door kinds, each where a small flat actually needs one: a hinged front
+  # door, a sliding wardrobe front that eats no floor, and a pocket door to the
+  # bath whose panel runs into the 1050 mm of solid wall past its jamb.
+  door id=d_front           on shell  at 14400 width 900 hinge left swing into r_living
+  door id=d_store  sliding  on w_core at 2000  width 900 slide left
+  door id=d_bath   pocket   on w_core at 5150  width 800 slide right
+
+  window id=win_w    at (0,2600)    width 1600 wall shell
+  window id=win_s    at (1100,6600) width 1200 wall shell
+  window id=win_bath at (5200,5300)  width 600  wall shell
+
+  furniture id=f_sink   kitchen_sink against wall shell segment 0 offset 700  in r_living
+  furniture id=f_stove  stove        against wall shell segment 0 offset 1550 in r_living
+  furniture id=f_fridge fridge       against wall shell segment 0 offset 2350 in r_living
+  furniture id=f_bed    bed   in r_living anchor bottom-left flush inset 300 size 1400x1900 label "Bed"
+  furniture id=f_sofa   sofa  in r_living anchor left inset 300 size 1500x800
+  furniture id=f_basin  basin in r_bath anchor top-right    flush size 600x450
+  furniture id=f_wc     wc    in r_bath anchor bottom-right flush size 400x700
+
+  title { project "Compact Bedsit" drawn_by "ArchCanvas" }
+}

@@ -1,0 +1,63 @@
+plan "Corner Cafe" {
+  units mm
+  grid 50
+  paper A3 landscape
+  north up
+  dims auto all
+  schedule rooms
+
+  # The site cuts the corner, so the front of house is not a rectangle: the
+  # dining room is authored as a polygon and its area is the exact shoelace
+  # figure, not a bounding box.
+  wall id=shell exterior thickness 250 {
+    (0,0) (11000,0) (11000,9000) (3000,9000) (0,6000) close
+  }
+  wall id=w_spine partition thickness 200 { (7000,0) (7000,9000) }
+  wall id=w_k     partition thickness 100 { (7000,4000) (11000,4000) }
+  wall id=w_s     partition thickness 100 { (7000,6000) (11000,6000) }
+  wall id=w_wc    partition thickness 100 { (9000,6000) (9000,9000) }
+
+  room id=r_cafe polygon (0,0) (7000,0) (7000,9000) (3000,9000) (0,6000)
+    label "Cafe" at (3000,3600) uses dining
+  room id=r_kitchen at (7000,0)    size 4000x4000 label "Kitchen" uses kitchen
+  room id=r_store   at (7000,4000) size 4000x2000 label "Store"   uses storage
+  room id=r_wc      at (7000,6000) size 2000x3000 label "WC"      uses wc
+  room id=r_staff   at (9000,6000) size 2000x3000 label "Staff"   uses utility
+
+  # The entrance sits on the cut corner, opening outward as a shopfront door
+  # must. A barn door serves the kitchen: it slides clear of the pass, and a
+  # swinging leaf here would sweep the service side of the counter.
+  door id=d_entry   on shell   at 30100 width 1500 hinge left swing out
+  door id=d_kitchen barn on w_spine at 3400 width 1200
+  door id=d_wc      on w_spine at 8400 width 900 swing into r_wc
+  door id=d_store   on w_k     at 1200 width 900 swing into r_store
+  door id=d_staff   on w_s     at 3000 width 800 swing into r_staff
+
+  window id=win_n1   at (1800,0)     width 2400 wall shell
+  window id=win_n2   at (4800,0)     width 2400 wall shell
+  window id=win_corner on shell at 29000 width 1500
+  window id=win_w    at (0,3000)     width 2000 wall shell
+  window id=win_kit  at (11000,700) width 1000 wall shell
+  window id=win_wc   at (7900,9000)  width 600  wall shell
+  window id=win_staff at (11000,7400) width 900 wall shell
+
+  # Front of house — a polygonal room takes coordinates, never `anchor`.
+  furniture id=f_bar   counter at (6300,4600) size 600x2800 label "Counter" in r_cafe
+  furniture id=f_t1 table at (700,1000)  size 900x900 in r_cafe
+  furniture id=f_t2 table at (2300,1000) size 900x900 in r_cafe
+  furniture id=f_t3 table at (3900,1000) size 900x900 in r_cafe
+  furniture id=f_t4 table at (700,2700)  size 900x900 in r_cafe
+  furniture id=f_t5 table at (2300,2700) size 900x900 in r_cafe
+  furniture id=f_t6 table at (3900,2700) size 900x900 in r_cafe
+  furniture id=f_t7 table at (700,4400)  size 900x900 in r_cafe
+  furniture id=f_t8 table at (2300,4400) size 900x900 in r_cafe
+
+  furniture id=f_sink   kitchen_sink in r_kitchen anchor top   flush size 800x600
+  furniture id=f_stove  stove        in r_kitchen anchor left  flush size 600x600
+  furniture id=f_fridge fridge       against wall w_k offset 3200 in r_kitchen
+  furniture id=f_prep   counter      in r_kitchen anchor right flush size 700x1800 label "Prep"
+  furniture id=f_wcp   wc    in r_wc anchor bottom-right flush size 400x700
+  furniture id=f_basin basin in r_wc anchor top-right    flush size 600x450
+
+  title { project "Corner Cafe" drawn_by "ArchCanvas" }
+}

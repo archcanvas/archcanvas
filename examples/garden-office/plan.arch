@@ -1,0 +1,44 @@
+plan "Garden Office" {
+  units mm
+  grid 50
+  scale 1:100
+  north up
+  dims auto all
+
+  # The plot fronts the street on the north; the garden — and, north of the
+  # equator, the sun — is on the south. The studio takes that whole facade.
+  site { street north }
+
+  let W = 8400
+  let D = 6600
+  let STUDIO = 5000
+
+  wall id=shell  exterior  thickness 200 { (0,0) (W,0) (W,D) (0,D) close }
+  wall id=w_east partition thickness 100 { (STUDIO,0) (STUDIO,D) }
+  wall id=w_a    partition thickness 100 { (STUDIO,3000) (W,3000) }
+  wall id=w_b    partition thickness 100 { (STUDIO,4600) (W,4600) }
+
+  room id=r_studio  at (0,0)         size 5000x6600 label "Studio"  uses office
+  room id=r_meeting at (STUDIO,0)    size 3400x3000 label "Meeting" uses office
+  room id=r_store   at (STUDIO,3000) size 3400x1600 label "Store"   uses storage
+  room id=r_wc      at (STUDIO,4600) size 3400x2000 label "WC"      uses wc
+
+  door    id=d_front   on shell  at 4000 width 1000 hinge left swing into r_studio
+  opening id=o_meeting on w_east at 1200 width 1400
+  door    id=d_store   on w_east at 3800 width 800 swing into r_store
+  door    id=d_wc      on w_east at 5600 width 800 swing into r_wc
+
+  window id=win_garden at (2400,6600) width 2400 wall shell
+  window id=win_west   at (0,3300)    width 2000 wall shell
+  window id=win_meet   at (8400,1500) width 1600 wall shell
+  window id=win_wc     at (8400,5600) width 600  wall shell
+
+  furniture id=f_desk1 desk  in r_studio  anchor top-left      inset 500 size 1800x800  label "Desk"
+  furniture id=f_desk2 desk  in r_studio  anchor left          inset 500 size 1800x800  label "Desk"
+  furniture id=f_sofa  sofa  in r_studio  anchor bottom-left   flush inset 600 size 1900x850
+  furniture id=f_table table in r_meeting centered size 1600x1000 label "Meeting table"
+  furniture id=f_wc    wc    in r_wc      anchor bottom-right  flush size 400x700
+  furniture id=f_basin basin in r_wc      anchor top-right     flush size 600x450
+
+  title { project "Garden Office" drawn_by "ArchCanvas" }
+}

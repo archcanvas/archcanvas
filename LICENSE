@@ -1,0 +1,64 @@
+ArchCanvas — licence terms for this repository
+
+Copyright (c) 2026 Chan Meng. All rights reserved.
+
+
+1. THE PRODUCT
+
+ArchCanvas is proprietary, closed-source software operated as a hosted service at
+https://archcanvas.uk. No licence to the ArchCanvas application, its source code,
+its models, its prompts or its algorithms is granted by this repository or by
+anything in it. Use of the hosted service is governed by the terms published on
+that site, not by this file.
+
+This repository contains documentation, examples and brand assets only. It does
+not contain the application.
+
+
+2. DOCUMENTATION AND EXAMPLES — CC BY 4.0
+
+The following are licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/ :
+
+  - every Markdown file in this repository (README.md, docs/**, ROADMAP.md,
+    CHANGELOG.md, CONTRIBUTING.md, SUPPORT.md, SECURITY.md and the rest);
+  - every ArchLang source file (examples/**/*.arch) and the drawings compiled
+    from them (examples/**/*.svg).
+
+You may share and adapt this material, including commercially, provided you give
+appropriate credit to ArchCanvas (https://archcanvas.uk) and indicate whether you
+made changes.
+
+The ArchLang language and compiler that these examples are written for is a
+separate open-source project under the MIT licence:
+https://github.com/ChanMeng666/archlang
+
+
+3. IMAGES OF DESIGNS
+
+The renderings in examples/**/*.webp are provided for reference and illustration
+alongside the plan they depict. They are covered by the same CC BY 4.0 grant as
+the examples in section 2.
+
+
+4. BRAND ASSETS — ALL RIGHTS RESERVED
+
+Everything in assets/brand/ — the ArchCanvas wordmark, icon, social card and the
+Chan Meng personal mark — together with the names "ArchCanvas" and "ArchLang",
+are reserved. They may be used to refer to the product (for example in an
+article, a review or a link), and they may not be modified, used as your own
+mark, or used in a way that suggests endorsement or affiliation.
+
+The screenshots in assets/screenshots/ depict the ArchCanvas product interface
+and are reserved on the same terms.
+
+
+5. NO WARRANTY
+
+Everything in this repository is provided "as is", without warranty of any kind.
+Plans produced by ArchCanvas are concept drawings. They are not construction
+documents, not a permit set, and not a substitute for a qualified architect,
+engineer or building-control professional.
+
+
+Questions about these terms: chanmeng.dev@gmail.com

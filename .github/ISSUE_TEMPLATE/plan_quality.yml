@@ -1,0 +1,74 @@
+name: "Plan quality report"
+description: "ArchCanvas designed something a person who knows buildings wouldn't have. Show us."
+title: "[Plan]: "
+labels: ["plan-quality"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This is the most useful report you can file.** Design quality is the hard part of this
+        product, and one specific bad plan is worth more than a hundred general opinions.
+
+        Please don't include anything private — this issue is public. If the plan is of a real home
+        you'd rather not publish, email it instead: chanmeng.dev@gmail.com
+
+  - type: textarea
+    id: brief
+    attributes:
+      label: The brief you gave
+      description: "Paste it as close to verbatim as you can, including any clarifying answers."
+      placeholder: "Three bedrooms, open kitchen-living, north-facing, roughly 110 m², single storey…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: What you got back
+      description: |
+        Drag in a screenshot or the exported SVG/PDF. If you can, also paste the `.arch` source
+        (Export → ArchLang source) — it says exactly what was drawn, and it's the fastest thing to
+        reproduce from.
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong with it
+      description: "Be specific and be blunt. 'The kitchen has no daylight' beats 'it feels off'."
+      placeholder: |
+        - The only bathroom opens directly off the living room.
+        - The hallway is 700 mm wide at the pinch point.
+        - Three bedrooms, but the smallest can't fit a bed and a door swing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: better
+    attributes:
+      label: What a good answer would have looked like
+      description: "Optional, and gold when you have it. A sketch, a description, or a plan you like."
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Closest category
+      multiple: true
+      options:
+        - "Circulation — corridors, door swings, getting between rooms"
+        - "Daylight and orientation"
+        - "Proportion — rooms the wrong shape or size"
+        - "Program — missed or misread part of the brief"
+        - "Layout is sound but dull / generic"
+        - "Fit-out — furniture placement"
+        - "Dimensions or areas look wrong"
+        - "Something else"
+
+  - type: checkboxes
+    id: refine
+    attributes:
+      label: Did you try refining it?
+      options:
+        - label: "I asked it to fix this in conversation, and it still came out wrong"
+        - label: "I haven't tried yet"

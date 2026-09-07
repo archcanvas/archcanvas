@@ -1,0 +1,111 @@
+[
+  {
+    "slug": "family-house",
+    "title": "Three-bed Family House",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "two-storey-townhouse",
+    "title": "Two-storey Townhouse",
+    "files": [
+      "plan.L0.svg",
+      "plan.L1.svg",
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "courtyard-apartment",
+    "title": "Courtyard Apartment",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "bay-bungalow",
+    "title": "Bay Bungalow",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "studio-loft",
+    "title": "Studio Loft",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "garden-office",
+    "title": "Garden Office",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "compact-bedsit",
+    "title": "Compact Bedsit",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "corner-cafe",
+    "title": "Corner Cafe",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "gallery-wing",
+    "title": "Gallery Wing",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-exterior.webp",
+      "render-interior.webp"
+    ]
+  },
+  {
+    "slug": "accessible-clinic",
+    "title": "Accessible Clinic",
+    "files": [
+      "plan.arch",
+      "plan.svg",
+      "render-aerial.webp",
+      "render-interior.webp"
+    ]
+  }
+]
