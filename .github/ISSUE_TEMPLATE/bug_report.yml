@@ -10,7 +10,7 @@ body:
 
         - **Account, payment or refund problems** → email chanmeng.dev@gmail.com instead. Don't put
           order details in a public issue.
-        - **A security vulnerability** → follow [SECURITY.md](../blob/main/SECURITY.md). Never a
+        - **A security vulnerability** → follow [SECURITY.md](https://github.com/archcanvas/archcanvas/blob/main/SECURITY.md). Never a
           public issue.
         - **A plan that came out wrong** → use the *Plan quality report* template instead; it asks
           the right questions.
