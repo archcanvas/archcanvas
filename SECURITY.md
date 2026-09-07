@@ -12,7 +12,7 @@ open-source project with [its own policy](https://github.com/ChanMeng666/archlan
 
 **Please do not open a public GitHub issue for a security vulnerability.**
 
-Email **chanmeng.dev@gmail.com** with:
+Email **hello@archcanvas.uk** with:
 
 - what the vulnerability is,
 - steps to reproduce it, or a proof of concept,

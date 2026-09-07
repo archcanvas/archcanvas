@@ -9,7 +9,7 @@
 | Report a plan that came out wrong | [Issues → Plan quality report](https://github.com/archcanvas/archcanvas/issues/new/choose) |
 | Ask for a feature | [Issues → Feature request](https://github.com/archcanvas/archcanvas/issues/new/choose) |
 | Show a plan you made | [Discussions → Show & tell](https://github.com/archcanvas/archcanvas/discussions) |
-| Ask about your account, a payment or a refund | **Email chanmeng.dev@gmail.com** — not a public issue |
+| Ask about your account, a payment or a refund | **Email hello@archcanvas.uk** — not a public issue |
 | Report a security vulnerability | [SECURITY.md](SECURITY.md) — privately, never a public issue |
 
 There is also a **Send feedback** item in the account menu inside the product. It carries the context

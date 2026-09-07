@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/archcanvas/archcanvas/discussions
     about: "Ask in Q&A, float an idea, or post a plan in Show & tell. Most things belong here rather than in an issue."
   - name: Account, payment, or refund
-    url: mailto:chanmeng.dev@gmail.com
+    url: mailto:hello@archcanvas.uk
     about: "Handled privately by email — please don't put order details in a public issue."
   - name: Security vulnerability
     url: https://github.com/archcanvas/archcanvas/blob/main/SECURITY.md

@@ -44,7 +44,7 @@ jobs:
 
           // Line fragments that are known-good and must not trip a rule.
           const ALLOW = [
-            "chanmeng.dev@gmail.com",
+            "hello@archcanvas.uk", // the published contact address
           ];
 
           const files = process.argv.slice(2);

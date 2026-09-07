@@ -110,7 +110,7 @@ No.
 
 ### Can I get a refund?
 
-Email **chanmeng.dev@gmail.com** — please don't put order details in a public issue. Refunds are
+Email **hello@archcanvas.uk** — please don't put order details in a public issue. Refunds are
 handled case by case and reasonably.
 
 ---

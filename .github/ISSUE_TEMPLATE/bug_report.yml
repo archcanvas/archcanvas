@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for reporting. Two things first:
 
-        - **Account, payment or refund problems** → email chanmeng.dev@gmail.com instead. Don't put
+        - **Account, payment or refund problems** → email hello@archcanvas.uk instead. Don't put
           order details in a public issue.
         - **A security vulnerability** → follow [SECURITY.md](https://github.com/archcanvas/archcanvas/blob/main/SECURITY.md). Never a
           public issue.
