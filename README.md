@@ -57,6 +57,18 @@ of rough options you have to choose between blind.
 
 ---
 
+## Watch the film
+
+Thirty seconds, from a sentence to a plan you can export. Every frame is a coded replica of the
+studio, not a screen recording. The two-minute cut is [on YouTube](https://youtu.be/rUZAiXgt9JY).
+
+<table><tr>
+<td width="76%" valign="top"><video src="https://github.com/user-attachments/assets/8986f197-f06c-49a7-ac4f-ddcab7f51abd" controls width="100%"></video><br><sub>30 s · 16:9</sub></td>
+<td width="24%" valign="top"><video src="https://github.com/user-attachments/assets/502cfc72-473a-4de9-9c98-a69bb531e3f5" controls width="100%"></video><br><sub>30 s · 9:16</sub></td>
+</tr></table>
+
+---
+
 ## See it
 
 This is not a mockup. Every drawing on this page is the real output of the real pipeline. Here is
