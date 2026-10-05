@@ -23,14 +23,16 @@ plan "Bay Bungalow" {
   wall id=w_snug   partition thickness 100 { (0,9600) (7200,9600) }
   wall id=w_entry  partition thickness 100 { (3400,9600) (3400,12000) }
 
+  # Two labels are pinned (`label … at`): the placer pushed "Dining" against its
+  # west wall, and on the issued sheet "Bedroom 2" against the east one.
   room id=r_living  at (0,0)       size 5800x6800 label "Living"    uses living
   room id=r_bed1    at (5800,0)    size 3600x3800 label "Bedroom 1" uses bedroom
-  room id=r_bed2    at (9400,0)    size 3000x3800 label "Bedroom 2" uses bedroom
+  room id=r_bed2    at (9400,0)    size 3000x3800 label "Bedroom 2" at (10900,3050) uses bedroom
   room id=r_hall    at (5800,3800) size 6600x1200 label "Hall"      uses hall circulation
   room id=r_bath    at (5800,5000) size 3200x1800 label "Bath"      uses bath
   room id=r_util    at (9000,5000) size 3400x1800 label "Laundry"   uses utility
   room id=r_kitchen at (0,6800)    size 5000x2800 label "Kitchen"   uses kitchen
-  room id=r_dining  at (5000,6800) size 2200x2800 label "Dining"    uses dining
+  room id=r_dining  at (5000,6800) size 2200x2800 label "Dining" at (6100,7100) uses dining
   room id=r_entry   at (0,9600)    size 3400x2400 label "Entry"     uses entry
   room id=r_snug    circle at (5900,10800) radius 1200 label "Snug"
 

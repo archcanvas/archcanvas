@@ -209,8 +209,8 @@
 <text x="3770" y="3715" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">39.4 m²</text>
 <text x="7060" y="2970" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bedroom 1</text>
 <text x="7060" y="3355" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">13.7 m²</text>
-<text x="11350" y="2400" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bedroom 2</text>
-<text x="11350" y="2785" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">11.4 m²</text>
+<text x="10900" y="2980" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bedroom 2</text>
+<text x="10900" y="3365" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">11.4 m²</text>
 <text x="9100" y="4330" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Hall</text>
 <text x="9100" y="4715" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">7.9 m²</text>
 <text x="8360" y="5290" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bath</text>
@@ -219,8 +219,8 @@
 <text x="11210" y="5945" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">6.1 m²</text>
 <text x="2500" y="8130" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Kitchen</text>
 <text x="2500" y="8515" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">14.0 m²</text>
-<text x="5770" y="7010" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Dining</text>
-<text x="5770" y="7395" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">6.2 m²</text>
+<text x="6100" y="7030" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Dining</text>
+<text x="6100" y="7415" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">6.2 m²</text>
 <text x="1700" y="10370" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Entry</text>
 <text x="1700" y="10755" font-size="250" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">8.2 m²</text>
 <text x="5900" y="11450" font-size="350" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Snug</text>

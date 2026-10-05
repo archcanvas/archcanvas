@@ -22,12 +22,18 @@ plan "Accessible Clinic" {
   wall id=w_s2      partition thickness 100 { (7000,5600) (7000,D) }
   wall id=w_s3      partition thickness 100 { (10400,5600) (10400,D) }
 
-  room id=r_wait     at (0,0)     size 5000x3800 label "Reception / Waiting" uses entry hall
-  room id=r_con1     at (5000,0)  size 3000x3800 label "Consulting 1" uses office
-  room id=r_con2     at (8000,0)  size 3000x3800 label "Consulting 2" uses office
-  room id=r_con3     at (11000,0) size 3000x3800 label "Consulting 3" uses office
+  # Labels are pinned (`label … at`), not left to the compiler's placer: it nudged
+  # them off the furniture and onto the partitions. Each consulting label sits in
+  # the band between the desk and the foot of the couch, 1400 in from the room's
+  # west wall — the only spot where the name clears both walls. "Accessible WC" is
+  # wider than its 2.2 m room at this scale and nothing can wrap it, so it is
+  # centred on the room, in the strip between the basin and the pan.
+  room id=r_wait     at (0,0)     size 5000x3800 label "Reception / Waiting" at (2550,2050) uses entry hall
+  room id=r_con1     at (5000,0)  size 3000x3800 label "Consulting 1" at (6400,1450) uses office
+  room id=r_con2     at (8000,0)  size 3000x3800 label "Consulting 2" at (9400,1450) uses office
+  room id=r_con3     at (11000,0) size 3000x3800 label "Consulting 3" at (12400,1450) uses office
   room id=r_corridor at (0,SPINE) size 14000x1800 label "Corridor" uses circulation
-  room id=r_wc       at (0,5600)     size 2400x3400 label "Accessible WC" uses wc
+  room id=r_wc       at (0,5600)     size 2400x3400 label "Accessible WC" at (1200,7950) uses wc
   room id=r_treat    at (2400,5600)  size 4600x3400 label "Treatment"     uses office
   room id=r_staff    at (7000,5600)  size 3400x3400 label "Staff"         uses utility
   room id=r_store    at (10400,5600) size 3600x3400 label "Store"         uses storage
