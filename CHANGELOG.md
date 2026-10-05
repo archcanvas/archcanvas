@@ -9,6 +9,18 @@ change what you can see or do, it isn't in this file.
 
 ---
 
+## October 2026
+
+- **Plans are drawn with real symbols.** Furniture, kitchen and bathroom fixtures, doors and windows
+  are now drawn as the things they are — a bed with its pillows, a hob with its rings, a window with
+  its glazing — instead of labelled boxes. The ten examples in this repository and on the showcase
+  page were redrawn to match.
+- **"Your brief" stays with the design.** The checklist that shows which parts of your brief the plan
+  meets used to disappear when you dragged a slider or used a quick action. It is now re-checked
+  against the changed plan, so it reflects what you are looking at.
+- **Better landmarks for screen readers** on the dashboard, account and billing pages: the site
+  header is now announced as the page banner, so it can be jumped to and skipped.
+
 ## September 2026
 
 - **A much better designer.** The way a plan is designed was rebuilt around architectural reasoning
