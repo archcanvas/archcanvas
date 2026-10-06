@@ -110,8 +110,8 @@
 <g id="A-ANNO-TEXT" inkscape:groupmode="layer" inkscape:label="A-ANNO-TEXT">
 <text x="2730" y="3765" font-size="175" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Studio / Kitchen</text>
 <text x="2730" y="3957.5" font-size="125" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">31.9 m²</text>
-<text x="5100" y="2955" font-size="175" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Sleeping Alcove</text>
-<text x="5100" y="3147.5" font-size="125" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">8.3 m²</text>
+<text x="5100" y="2955" font-size="175" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600"><tspan x="5100" y="2850">Sleeping</tspan><tspan x="5100" y="3060">Alcove</tspan></text>
+<text x="5100" y="3252.5" font-size="125" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">8.3 m²</text>
 <text x="5370" y="6065" font-size="175" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bath</text>
 <text x="5370" y="6257.5" font-size="125" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">5.4 m²</text>
 </g>

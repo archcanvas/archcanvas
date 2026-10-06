@@ -229,8 +229,8 @@
 <text x="5590" y="3200.2" font-size="277.2" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">15.0 m²</text>
 <text x="9000" y="2784.4" font-size="378" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bedroom 2</text>
 <text x="9000" y="3200.2" font-size="277.2" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">10.6 m²</text>
-<text x="11300" y="2784.4" font-size="378" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Bedroom 3</text>
-<text x="11300" y="3200.2" font-size="277.2" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">9.7 m²</text>
+<text x="11300" y="2784.4" font-size="378" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600"><tspan x="11300" y="2557.6">Bedroom</tspan><tspan x="11300" y="3011.2">3</tspan></text>
+<text x="11300" y="3427" font-size="277.2" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">9.7 m²</text>
 <text x="1600" y="7024.4" font-size="378" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Kitchen</text>
 <text x="1600" y="7440.2" font-size="277.2" fill="#7a7a7a" text-anchor="middle" dominant-baseline="central">17.3 m²</text>
 <text x="7800" y="5074.4" font-size="378" fill="#222222" text-anchor="middle" dominant-baseline="central" font-weight="600">Hall</text>
