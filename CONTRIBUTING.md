@@ -46,7 +46,7 @@ confirm in the PR that you are happy for it to be published under this repositor
 
 - Pull requests adding application code, since there is no application here.
 - Requests to open-source ArchCanvas. The answer is no, and the reasoning is in the
-  [README](README.md#built-on-archlang): the substrate is open, the product is not.
+  [overview](docs/overview.md#built-on-archlang): the substrate is open, the product is not.
 - Security vulnerabilities filed as public issues — please follow [SECURITY.md](SECURITY.md) instead.
 
 ## Ground rules

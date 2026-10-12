@@ -51,7 +51,7 @@ Being explicit about these saves everyone time.
 
 - **Permit-ready or construction documents.** ArchCanvas produces a concept plan to take *to* a
   professional. Making it look like a permit set would be dishonest about what has actually been
-  checked. See [what it is not](README.md#what-it-is-not--honestly).
+  checked. See [what it is not](docs/overview.md#what-it-is-not--honestly).
 - **Structural, services or code-compliance checking.** Same reason.
 - **A subscription.** You design a house a handful of times in your life, not every month.
 - **Open-sourcing the application.** The substrate is open — that's
