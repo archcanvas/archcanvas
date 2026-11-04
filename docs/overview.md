@@ -132,15 +132,15 @@ design — because it *is* the design.
 
 ## Gallery
 
-Ten worked examples. Every one ships its source, its compiled sheet and its renderings in
+Ten worked examples. Every one ships its source, its compiled sheet and, for most, AI-generated impressions in
 [`examples/`](../examples/) — clone the repo and recompile them yourself.
 
 | | | |
 |:-:|:-:|:-:|
-| <img src="../examples/family-house/render-aerial.webp" alt="Aerial rendering of the three-bed family house" width="250" /><br/>**[Three-bed Family House](../examples/family-house/)** | <img src="../examples/two-storey-townhouse/render-aerial.webp" alt="Aerial rendering of the two-storey townhouse" width="250" /><br/>**[Two-storey Townhouse](../examples/two-storey-townhouse/)** | <img src="../examples/courtyard-apartment/render-aerial.webp" alt="Aerial rendering of the courtyard apartment" width="250" /><br/>**[Courtyard Apartment](../examples/courtyard-apartment/)** |
-| <img src="../examples/bay-bungalow/render-aerial.webp" alt="Aerial rendering of the bay bungalow" width="250" /><br/>**[Bay Bungalow](../examples/bay-bungalow/)** | <img src="../examples/studio-loft/render-aerial.webp" alt="Aerial rendering of the studio loft" width="250" /><br/>**[Studio Loft](../examples/studio-loft/)** | <img src="../examples/garden-office/render-aerial.webp" alt="Aerial rendering of the garden office" width="250" /><br/>**[Garden Office](../examples/garden-office/)** |
-| <img src="../examples/compact-bedsit/render-aerial.webp" alt="Aerial rendering of the compact bedsit" width="250" /><br/>**[Compact Bedsit](../examples/compact-bedsit/)** | <img src="../examples/corner-cafe/render-aerial.webp" alt="Aerial rendering of the corner cafe" width="250" /><br/>**[Corner Cafe](../examples/corner-cafe/)** | <img src="../examples/gallery-wing/render-aerial.webp" alt="Aerial rendering of the gallery wing" width="250" /><br/>**[Gallery Wing](../examples/gallery-wing/)** |
-| <img src="../examples/accessible-clinic/render-aerial.webp" alt="Aerial rendering of the accessible clinic" width="250" /><br/>**[Accessible Clinic](../examples/accessible-clinic/)** | | |
+| <img src="../examples/family-house/plan.svg" alt="Compiled floor plan of the three-bed family house" width="250" /><br/>**[Three-bed Family House](../examples/family-house/)** | <img src="../examples/two-storey-townhouse/plan.svg" alt="Compiled floor plan of the two-storey townhouse" width="250" /><br/>**[Two-storey Townhouse](../examples/two-storey-townhouse/)** | <img src="../examples/courtyard-apartment/plan.svg" alt="Compiled floor plan of the courtyard apartment" width="250" /><br/>**[Courtyard Apartment](../examples/courtyard-apartment/)** |
+| <img src="../examples/bay-bungalow/plan.svg" alt="Compiled floor plan of the bay bungalow" width="250" /><br/>**[Bay Bungalow](../examples/bay-bungalow/)** | <img src="../examples/studio-loft/plan.svg" alt="Compiled floor plan of the studio loft" width="250" /><br/>**[Studio Loft](../examples/studio-loft/)** | <img src="../examples/garden-office/plan.svg" alt="Compiled floor plan of the garden office" width="250" /><br/>**[Garden Office](../examples/garden-office/)** |
+| <img src="../examples/compact-bedsit/plan.svg" alt="Compiled floor plan of the compact bedsit" width="250" /><br/>**[Compact Bedsit](../examples/compact-bedsit/)** | <img src="../examples/corner-cafe/plan.svg" alt="Compiled floor plan of the corner cafe" width="250" /><br/>**[Corner Cafe](../examples/corner-cafe/)** | <img src="../examples/gallery-wing/plan.svg" alt="Compiled floor plan of the gallery wing" width="250" /><br/>**[Gallery Wing](../examples/gallery-wing/)** |
+| <img src="../examples/accessible-clinic/plan.svg" alt="Compiled floor plan of the accessible clinic" width="250" /><br/>**[Accessible Clinic](../examples/accessible-clinic/)** | | |
 
 ---
 

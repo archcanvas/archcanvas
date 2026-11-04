@@ -225,10 +225,10 @@
 <line x1="6119.3" y1="6642.3" x2="6003.9" y2="6757.7" stroke="#0E5484" stroke-width="10.88"/>
 <line x1="6119.3" y1="-157.7" x2="6003.9" y2="-42.3" stroke="#0E5484" stroke-width="10.88"/>
 <text x="6156.8" y="3300" font-size="136" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 6156.8 3300)">6800</text>
-<line x1="3550" y1="2025" x2="3650" y2="2025" stroke="#0E5484" stroke-width="10.88"/>
-<line x1="3607.7" y1="2082.7" x2="3492.3" y2="1967.3" stroke="#0E5484" stroke-width="10.88"/>
-<line x1="3707.7" y1="2082.7" x2="3592.3" y2="1967.3" stroke="#0E5484" stroke-width="10.88"/>
-<text x="3844.48" y="2025" font-size="136" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 3844.48 2025)">100</text>
+<line x1="3550" y1="3200" x2="3650" y2="3200" stroke="#0E5484" stroke-width="10.88"/>
+<line x1="3607.7" y1="3257.7" x2="3492.3" y2="3142.3" stroke="#0E5484" stroke-width="10.88"/>
+<line x1="3707.7" y1="3257.7" x2="3592.3" y2="3142.3" stroke="#0E5484" stroke-width="10.88"/>
+<text x="3844.48" y="3200" font-size="136" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 3844.48 3200)">100</text>
 <line x1="5100" y1="2025" x2="5300" y2="2025" stroke="#0E5484" stroke-width="10.88"/>
 <line x1="5157.7" y1="2082.7" x2="5042.3" y2="1967.3" stroke="#0E5484" stroke-width="10.88"/>
 <line x1="5357.7" y1="2082.7" x2="5242.3" y2="1967.3" stroke="#0E5484" stroke-width="10.88"/>

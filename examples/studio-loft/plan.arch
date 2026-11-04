@@ -34,7 +34,7 @@ plan "Studio Loft" {
   furniture id=f_fridge fridge      against wall shell segment 0 offset 2350 in r_studio
   furniture id=f_sofa  sofa  in r_studio anchor bottom-left flush inset 500 size 1900x850
   furniture id=f_table table in r_studio anchor left  inset 500 size 1100x700
-  furniture id=f_bed   bed   in r_alcove anchor top   flush inset 300 size 1400x1900 label "Double"
+  furniture id=f_bed   bed   in r_alcove anchor bottom flush inset 300 size 1400x1900 label "Double"
   furniture id=f_basin basin in r_bath   anchor top-right    flush size 600x450
   furniture id=f_wc    wc    in r_bath   anchor bottom-right flush size 400x700
   furniture id=f_shower shower in r_bath anchor bottom-left  flush size 900x900

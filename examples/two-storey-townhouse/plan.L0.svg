@@ -331,14 +331,14 @@
 <line x1="8808.46" y1="9021.94" x2="8652.34" y2="9178.06" stroke="#0E5484" stroke-width="14.72"/>
 <line x1="8808.46" y1="-178.06" x2="8652.34" y2="-21.94" stroke="#0E5484" stroke-width="14.72"/>
 <text x="8859.2" y="4500" font-size="184" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 8859.2 4500)">9200</text>
-<line x1="2350" y1="2325" x2="2450" y2="2325" stroke="#0E5484" stroke-width="14.72"/>
-<line x1="2428.06" y1="2403.06" x2="2271.94" y2="2246.94" stroke="#0E5484" stroke-width="14.72"/>
-<line x1="2528.06" y1="2403.06" x2="2371.94" y2="2246.94" stroke="#0E5484" stroke-width="14.72"/>
-<text x="2713.12" y="2325" font-size="184" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 2713.12 2325)">100</text>
-<line x1="7500" y1="2325" x2="7700" y2="2325" stroke="#0E5484" stroke-width="14.72"/>
-<line x1="7578.06" y1="2403.06" x2="7421.94" y2="2246.94" stroke="#0E5484" stroke-width="14.72"/>
-<line x1="7778.06" y1="2403.06" x2="7621.94" y2="2246.94" stroke="#0E5484" stroke-width="14.72"/>
-<text x="7236.88" y="2325" font-size="184" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 7236.88 2325)">200</text>
+<line x1="2350" y1="7675" x2="2450" y2="7675" stroke="#0E5484" stroke-width="14.72"/>
+<line x1="2428.06" y1="7753.06" x2="2271.94" y2="7596.94" stroke="#0E5484" stroke-width="14.72"/>
+<line x1="2528.06" y1="7753.06" x2="2371.94" y2="7596.94" stroke="#0E5484" stroke-width="14.72"/>
+<text x="2713.12" y="7675" font-size="184" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 2713.12 7675)">100</text>
+<line x1="7500" y1="5375" x2="7700" y2="5375" stroke="#0E5484" stroke-width="14.72"/>
+<line x1="7578.06" y1="5453.06" x2="7421.94" y2="5296.94" stroke="#0E5484" stroke-width="14.72"/>
+<line x1="7778.06" y1="5453.06" x2="7621.94" y2="5296.94" stroke="#0E5484" stroke-width="14.72"/>
+<text x="7236.88" y="5375" font-size="184" fill="#0E5484" text-anchor="middle" dominant-baseline="central" transform="rotate(0 7236.88 5375)">200</text>
 </g>
 <g><polygon points="7286,-1374.2 7079,-711.8 7286,-856.7 7493,-711.8" fill="#333333" transform="rotate(0 7286 -960.2)"/><text x="7286" y="-1565.56" font-size="239.2" fill="#333333" text-anchor="middle" dominant-baseline="central">N</text></g>
 <g><rect x="-100" y="10903.2" width="1000" height="128.8" fill="#333333"/><rect x="900" y="10903.2" width="1000" height="128.8" fill="none" stroke="#333333" stroke-width="14.72"/><text x="-100" y="11216" font-size="184" fill="#333333" text-anchor="start" dominant-baseline="central">0</text><text x="1900" y="11216" font-size="184" fill="#333333" text-anchor="middle" dominant-baseline="central">2 m</text></g>
