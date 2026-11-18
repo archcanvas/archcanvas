@@ -119,7 +119,7 @@ plan "Garden Office" {
 
 | The compiled sheet | The rendering |
 |:-:|:-:|
-| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> | <img src="../examples/garden-office/render-exterior.webp" alt="A photorealistic exterior rendering of the Garden Office, grounded on the compiled plan" width="420" /> |
+| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> | <img src="../examples/garden-office/render-exterior.webp" alt="An exterior rendering of the Garden Office, grounded on the compiled plan (AI-generated impression)" width="420" /> |
 
 </div>
 
