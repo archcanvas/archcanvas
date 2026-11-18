@@ -35,7 +35,7 @@ ArchCanvas gives you the fast, cheap first draft. Describe the home in plain lan
 bedrooms, open kitchen-living, north-facing, roughly 110 m²"* — and it designs **one strong floor
 plan**: properly dimensioned, with walls that actually close, that you can export and hand to a
 builder or a draftsperson. Then you refine it in conversation on an infinite canvas — move a wall,
-resize a room, change the layout — as much as you want, for free.
+resize a room, change the layout — for free, within the limits under [Pricing](#pricing).
 
 **Why one plan, not fifty?** Because a single consistent plan you shape until it's right beats a pile
 of rough options you have to choose between blind.
@@ -119,7 +119,7 @@ plan "Garden Office" {
 
 | The compiled sheet | The rendering |
 |:-:|:-:|
-| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> | <img src="../examples/garden-office/render-exterior.webp" alt="A photorealistic exterior rendering of the Garden Office, grounded on the compiled plan" width="420" /> |
+| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> | <img src="../examples/garden-office/render-exterior.webp" alt="An exterior rendering of the Garden Office, grounded on the compiled plan (AI-generated impression)" width="420" /> |
 
 </div>
 
@@ -168,9 +168,9 @@ You pay per result you keep.
 
 | | Price | What you get |
 |---|---|---|
-| **Free** | $0 | One complete floor plan, 10 rounds of refinement, 2 renderings. No card. |
-| **Starter** | $10 | 5 generation sets — and refinement becomes unlimited. |
-| **Pro** | $25 | 15 generation sets — and refinement becomes unlimited. |
+| **Free** | $0 | One complete floor plan, 10 rounds of refinement, 1 AI rendering. No card. |
+| **Starter** | $10 | 5 generation sets — refinement up to 40 a day, and 3 renderings per credit. |
+| **Pro** | $25 | 15 generation sets — refinement up to 40 a day, and 3 renderings per credit. |
 
 > No subscription. You design a house a handful of times in your life, not every month — so you pay
 > per result you keep, with credits that never expire. You're never billed for a month you didn't use.

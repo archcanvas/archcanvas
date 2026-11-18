@@ -98,10 +98,10 @@ that's a bug worth [reporting](https://github.com/archcanvas/archcanvas/issues/n
 No subscription. You design a house a handful of times in your life, not every month — so you pay per
 result you keep, with credits that never expire. You're never billed for a month you didn't use.
 
-One credit buys one generation: the plan, its rendering and its review. **Refining that design in
-conversation is free**, and once you've bought any pack, refinement and renderings are unlimited.
+One credit buys one generation: the plan and its review. **Refining that design in conversation is
+free**, and any pack raises the refinement limit to 40 a day and includes 3 renderings per credit.
 
-The free tier is one complete floor plan plus 10 rounds of refinement and 2 renderings, without a
+The free tier is one complete floor plan plus 10 rounds of refinement and 1 AI rendering, without a
 card.
 
 ### Do credits expire?
