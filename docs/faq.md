@@ -119,9 +119,12 @@ handled case by case and reasonably.
 
 ### What happens to my brief and my plans?
 
-The short answer: your brief is sent to an AI provider to design the plan, and your projects are
-stored so you can come back to them. The full and authoritative answer — who processes what, where,
-and for how long — is the [privacy policy](https://archcanvas.uk/privacy).
+The short answer: your brief is sent to an AI provider, OpenAI, to design the plan, and your projects
+are stored so you can come back to them. In return for a daily allowance of free use of its models,
+OpenAI uses what is sent to it and what it sends back, including uploaded images, to improve and
+train its models, and deleting a project does not recall OpenAI's copy. The full and authoritative
+answer — who processes what, where, and for how long — is the
+[privacy policy](https://archcanvas.uk/privacy).
 
 ### Are my projects public?
 
