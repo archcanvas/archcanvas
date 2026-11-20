@@ -44,9 +44,11 @@ of rough options you have to choose between blind.
 
 |  |  |  |
 |:-:|:-:|:-:|
-| <img src="../assets/screenshots/hero.webp" alt="The ArchCanvas landing page: an aubergine hero reading Describe your home, get a real dimensioned floor plan, with a typed brief beside the plan it compiled to" width="280" /> | <img src="../assets/screenshots/what-you-get.webp" alt="What you actually get: a plan precise enough to take to a professional, over three cards — checked, dimensioned to the millimetre, and renderings grounded in the plan" width="280" /> | <img src="../assets/screenshots/canvas.webp" alt="The ArchCanvas studio: a compiled floor plan on the infinite canvas beside the conversation panel" width="280" /> |
+| <img src="../assets/screenshots/hero.webp" alt="The ArchCanvas home page: Describe your home, get a real, dimensioned floor plan, over an empty brief box with a Design my plan button, three example chips (Flat, Bungalow, Café), and a floor plan drawn faintly behind" width="280" /> | <img src="../assets/screenshots/what-you-get.webp" alt="What one brief turns into: a quoted bungalow brief, then its dimensioned floor plan, the 3D preview of the same plan, and a rendering tagged AI-generated impression" width="280" /> | <img src="../assets/screenshots/pricing.webp" alt="Pricing: pay per result — Free $0 for one credit, Starter $10 for five credits, Pro $25 for fifteen credits" width="280" /> |
 
-<img src="../assets/screenshots/demo.gif" alt="A scroll through the ArchCanvas landing page: the hero compiling a brief into a plan, the real-plans gallery, and the pay-per-result pricing tiles" width="860" />
+<img src="../assets/screenshots/mobile-hero.webp" alt="The ArchCanvas home page on a phone: the headline, the brief box with Design my plan, the Your first design is free line and the three example chips" width="200" />
+
+<img src="../assets/screenshots/demo.gif" alt="On the ArchCanvas home page, choosing each example (Flat, Bungalow, Café) fills the brief box with that project's brief and redraws the floor plan behind it; then the page scrolls to the plan, 3D preview and rendering that one brief turns into" width="860" />
 
 </div>
 
