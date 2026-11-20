@@ -12,6 +12,8 @@ What ArchCanvas is working on, in the open.
 
 ## Now
 
+The current focus is making a first design faster and more often right first time.
+
 **Design quality is the whole game.** Everything else is secondary until a plan looks like something
 a person who knows buildings would have drawn.
 
@@ -62,5 +64,7 @@ Being explicit about these saves everyone time.
 
 ## Recently done
 
-See the [changelog](CHANGELOG.md). The last few: a substantially better plan designer, multi-storey
-plans, one-shot launch from the dashboard, and a much quieter canvas.
+See the [changelog](CHANGELOG.md). The last few: a 3D preview of each plan, with GLB download;
+renderings made from a view in the 3D preview; multi-storey plans designed floor by floor; edits that
+change a plan's size; a homepage that starts with your brief, and a first design that starts straight
+after sign-up.
