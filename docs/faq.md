@@ -36,7 +36,7 @@ You can still ask for variations explicitly, and you'll get them.
 
 ### Why does it take so long?
 
-A generation takes about 100–160 seconds because we compile and check the geometry before showing it
+A first design usually takes 2 to 3 minutes because we compile and check the geometry before showing it
 to you. That's a deliberate bet: one strong, consistent plan you then refine for free, instead of
 several rough options in a minute that you have to choose between blind. If that trade is wrong for
 you, the free tier costs nothing to find out.
@@ -63,7 +63,8 @@ honoured, that shows up as a named item rather than being quietly dropped and le
 ### What can I export?
 
 SVG and PNG from the browser; **DXF** and **PDF** from the server; and the editable **ArchLang
-source** itself. Multi-storey plans export one file per storey.
+source** itself. Multi-storey plans export one file per storey. The 3D preview downloads as **GLB**,
+for plans it can show.
 
 ### What is ArchLang, and why do I care?
 

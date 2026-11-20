@@ -26,7 +26,7 @@ a person who knows buildings would have drawn.
 
 ## Next
 
-- **Speed.** A generation takes about 100–160 seconds today. That trade is deliberate, but the number
+- **Speed.** A first design usually takes 2 to 3 minutes today. That trade is deliberate, but the number
   is not sacred.
 - **More control over the fit-out.** Furniture placement is automatic; being able to say "put the
   wardrobe on the other wall" and have it stick is a common ask.

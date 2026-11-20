@@ -157,7 +157,7 @@ Ten worked examples. Every one ships its source, its compiled sheet and, for mos
 3. **Refine it by talking to it.** Move a wall, split a room, add an upstairs. Edits are free and
    land on the canvas in place; a timeline keeps every earlier version.
 4. **Take it away.** Export SVG, PNG, **DXF**, **PDF**, or the editable source itself — one file per
-   storey. Share a read-only link with whoever needs to see it.
+   storey — and the 3D preview as GLB, for plans it can show. Share a read-only link with whoever needs to see it.
 
 Multi-storey works the same way: ask for an upstairs and the checks stay building-wide — the walk
 climbs the stairs, and a house whose only front door is upstairs is a defect, not a drawing.
@@ -187,7 +187,7 @@ get you a solid, buildable-shaped starting point in minutes for a few dollars �
 pay a draftsperson or an architect for permit-ready drawings, you're not paying them to figure out
 what you want from scratch; you're paying them to finish something real.
 
-One more honest note: a generation takes about 100–160 seconds, because the geometry is compiled and
+One more honest note: a first design usually takes 2 to 3 minutes, because the geometry is compiled and
 checked before you see it. That's a deliberate trade — one strong plan you then refine for free,
 instead of several rough options in a minute that you have to choose between blind. The free tier
 costs nothing to decide whether the trade is worth it.
