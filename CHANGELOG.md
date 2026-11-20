@@ -9,6 +9,28 @@ change what you can see or do, it isn't in this file.
 
 ---
 
+## November 2026
+
+- **A 3D preview of your plan.** A design card and its share page can switch between the plan and a
+  3D preview of it, for plans it can show, and the preview works by touch on a phone. The export
+  menu can also download the 3D preview as a GLB file.
+- **Renderings made from the 3D preview.** Turn the 3D preview to the view you want and make a
+  rendering of that view. Every rendering is tagged as an AI-generated impression.
+- **Multi-storey plans are designed floor by floor**, so each storey gets its own layout and fit-out.
+- **Edits can change a plan's size.** Ask for a smaller or larger plan and the edit resizes it, and
+  says so when it could not.
+- **A new public site.** The homepage starts with a box to describe your home. A brief typed there
+  is kept while you create an account, and your free first design starts straight after sign-up.
+- **"Your designs".** The dashboard now shows your designs, with the latest one first.
+- **Honest waiting.** The studio says a first design usually takes 2 to 3 minutes, and that you can
+  close the page while it carries on.
+- **"You decide".** When the designer asks questions before drawing, any of them can be handed back
+  to it.
+- **A note from the designer.** A first design arrives with a short note on what was drawn and one
+  suggested next step.
+- **Credits come back.** If a design cannot be saved after its credit was taken, the credit is
+  returned.
+
 ## October 2026
 
 - **Plans are drawn with real symbols.** Furniture, kitchen and bathroom fixtures, doors and windows
