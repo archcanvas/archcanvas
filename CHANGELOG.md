@@ -28,8 +28,8 @@ change what you can see or do, it isn't in this file.
   to it.
 - **A note from the designer.** A first design arrives with a short note on what was drawn and one
   suggested next step.
-- **Credits come back.** If a design cannot be saved after its credit was taken, the credit is
-  returned.
+- **A failed save no longer always costs a credit.** When saving a design fails in a way the system
+  can confirm, the credit taken for it is returned automatically.
 
 ## October 2026
 
