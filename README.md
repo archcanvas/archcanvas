@@ -35,7 +35,7 @@ You get one floor plan on an infinite canvas. Then you change it by talking to i
 
 - **One plan, not fifty.** A single consistent plan you shape until it is right.
 - **Checked before you see it.** A compiler walks every route, measures every door and confirms every room is reachable. What it could not resolve is written on the drawing.
-- **Yours to take away.** Export SVG, PNG, DXF, PDF or the editable source, one file per storey.
+- **Yours to take away.** Export SVG, PNG, DXF, PDF or the editable source, one file per storey, and the 3D preview as GLB for plans it can show.
 
 ```mermaid
 flowchart LR
