@@ -100,10 +100,28 @@ No subscription. You design a house a handful of times in your life, not every m
 result you keep, with credits that never expire. You're never billed for a month you didn't use.
 
 One credit buys one generation: the plan and its review. **Refining that design in conversation is
-free**, and any pack raises the refinement limit to 40 a day and includes 3 renderings per credit.
+free**, and any pack raises the refinement limit to 40 a day.
 
-The free tier is one complete floor plan plus 10 rounds of refinement and 1 AI rendering, without a
+The free tier is one complete floor plan plus 10 rounds of refinement and its 3D preview, without a
 card.
+
+### Do I need an account to start?
+
+Not for your first design. Type a brief on the home page and the design starts at once: you watch it
+draw and can open its 3D preview. To keep it — and refine, download or share it — you create a free
+account in one step, with Google or a 6-digit code sent to your email; there is no password to set.
+Keeping a design you started before signing up uses one credit, which for a new account is its free
+one.
+
+At times a design cannot be started without an account — for example when one was already started
+from your network that day, or when they are paused for the day. Then you sign up first. A design you
+started and did not keep is deleted once it is 7 days old.
+
+### Does it make AI renderings?
+
+Not any more. Since 22 November 2026 the 3D preview is the picture of the building: orbit it, step
+through the storeys, look from eye level inside or from the street, and export it as GLB. Renderings
+made before then are no longer shown, and packs no longer include them.
 
 ### Do credits expire?
 

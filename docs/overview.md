@@ -50,6 +50,8 @@ of rough options you have to choose between blind.
 
 <img src="../assets/screenshots/demo.gif" alt="On the ArchCanvas home page, choosing each example (Flat, Bungalow, Café) fills the brief box with that project's brief and redraws the floor plan behind it; then the page scrolls to the plan, 3D preview and rendering that one brief turns into" width="860" />
 
+<sub>These screenshots were taken before 22 November 2026, when ArchCanvas stopped making renderings; the 3D preview is now the picture of the building.</sub>
+
 </div>
 
 ---
@@ -119,23 +121,24 @@ plan "Garden Office" {
 
 <div align="center">
 
-| The compiled sheet | The rendering |
-|:-:|:-:|
-| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> | <img src="../examples/garden-office/render-exterior.webp" alt="An exterior rendering of the Garden Office, grounded on the compiled plan (AI-generated impression)" width="420" /> |
+| The compiled sheet |
+|:-:|
+| <img src="../examples/garden-office/plan.svg" alt="The compiled Garden Office floor plan: a titled drawing sheet with dimensioned studio, meeting room, store and WC" width="420" /> |
 
 </div>
 
-You are looking at the same building three times: the source is text you can read and correct, the
-sheet is what the compiler drew from it, and the rendering is grounded on that drawing rather than
-imagined separately. `git diff` on the source tells you what changed between two versions of a
-design — because it *is* the design.
+You are looking at the same building twice: the source is text you can read and correct, and the
+sheet is what the compiler drew from it. In the product, the 3D preview is built from that same plan
+rather than imagined separately. `git diff` on the source tells you what changed between two versions
+of a design — because it *is* the design.
 
 ---
 
 ## Gallery
 
-Ten worked examples. Every one ships its source, its compiled sheet and, for most, AI-generated impressions in
-[`examples/`](../examples/) — clone the repo and recompile them yourself.
+Ten worked examples. Every one ships its source and its compiled sheet in
+[`examples/`](../examples/) — clone the repo and recompile them yourself. Most also keep the
+AI-generated impressions made before ArchCanvas stopped making renderings on 22 November 2026.
 
 | | | |
 |:-:|:-:|:-:|
@@ -148,8 +151,9 @@ Ten worked examples. Every one ships its source, its compiled sheet and, for mos
 
 ## How it works
 
-1. **Describe the build.** A sentence is enough to start. If the brief is thin, you get a couple of
-   clarifying questions rather than a guess.
+1. **Describe the build.** A sentence is enough to start, and your first design starts without an
+   account — you create a free one to keep it. If the brief is thin, you get a couple of clarifying
+   questions rather than a guess.
 2. **One plan is designed, then checked.** The plan is produced as compilable source, not as a
    picture — so before you ever see it, a compiler can walk every route, measure every door and
    confirm every room is reachable. Whatever it could not resolve is **written on the drawing**
@@ -170,9 +174,9 @@ You pay per result you keep.
 
 | | Price | What you get |
 |---|---|---|
-| **Free** | $0 | One complete floor plan, 10 rounds of refinement, 1 AI rendering. No card. |
-| **Starter** | $10 | 5 generation sets — refinement up to 40 a day, and 3 renderings per credit. |
-| **Pro** | $25 | 15 generation sets — refinement up to 40 a day, and 3 renderings per credit. |
+| **Free** | $0 | One complete floor plan, 10 rounds of refinement and its 3D preview. No card. |
+| **Starter** | $10 | 5 generation sets — refinement up to 40 a day. |
+| **Pro** | $25 | 15 generation sets — refinement up to 40 a day. |
 
 > No subscription. You design a house a handful of times in your life, not every month — so you pay
 > per result you keep, with credits that never expire. You're never billed for a month you didn't use.

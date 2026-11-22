@@ -45,7 +45,6 @@ signal that moves it.
 - Editing from a phone (today the canvas is comfortable on a laptop and cramped on a phone).
 - Comments on a share link, so a client can point at the plan rather than describe the spot.
 - More building typologies beyond the current presets.
-- Rendering styles — the current renderings have one look.
 
 ## Not planned
 
@@ -64,7 +63,7 @@ Being explicit about these saves everyone time.
 
 ## Recently done
 
-See the [changelog](CHANGELOG.md). The last few: a 3D preview of each plan, with GLB download;
-renderings made from a view in the 3D preview; multi-storey plans designed floor by floor; edits that
-change a plan's size; a homepage that starts with your brief, and a first design that starts straight
-after sign-up.
+See the [changelog](CHANGELOG.md). The last few: a first design you can start without an account,
+and a simpler sign-in; the 3D preview as the picture of the building, with GLB download, in place of
+AI renderings; multi-storey plans designed floor by floor; edits that change a plan's size; a
+homepage that starts with your brief.
