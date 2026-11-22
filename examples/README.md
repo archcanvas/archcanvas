@@ -1,8 +1,6 @@
 # Examples
 
-Ten plans ArchCanvas designed, published whole: the **source** and the **compiled sheet**. Most also
-keep the **AI-generated impressions** made from them before ArchCanvas stopped making renderings on
-22 November 2026 (studio-loft's were withdrawn earlier because they no longer matched its plan).
+Ten plans ArchCanvas designed, published whole: the **source** and the **compiled sheet**.
 
 These are not screenshots of a demo. Each `plan.arch` is the real
 [ArchLang](https://github.com/ChanMeng666/archlang) program the plan is written in, and each
@@ -35,9 +33,6 @@ a wall.
 | `plan.arch` | The ArchLang source. This is the design. |
 | `plan.svg` | The compiled drawing sheet — title block, dimensions, the lot. |
 | `plan.L0.svg`, `plan.L1.svg` | One sheet per storey, for multi-storey plans. |
-| `render-aerial.webp` | A past AI-generated impression from above, made from the compiled plan. Where it and the plan differ, the plan is right. |
-| `render-exterior.webp` | A past AI-generated impression from outside, where one exists. |
-| `render-interior.webp` | A past AI-generated impression from inside, where one exists. |
 
 ## The plans
 
@@ -96,8 +91,8 @@ corridor, and an accessible WC that keeps its middle clear for a 1500 mm turning
 
 ## Licence
 
-The `.arch` sources and the compiled `.svg` sheets are shared under **CC BY 4.0**, as are the
-renderings — see [LICENSE](../LICENSE). Use them, adapt them, learn from them; credit ArchCanvas.
+The `.arch` sources and the compiled `.svg` sheets are shared under **CC BY 4.0** — see
+[LICENSE](../LICENSE). Use them, adapt them, learn from them; credit ArchCanvas.
 
 ## Adding one
 
