@@ -15,7 +15,7 @@ Describe your home in plain English. Get a dimensioned floor plan back, with a w
 
 <br>
 
-<a href="https://archcanvas.uk/"><img src="./.github/readme/card.svg" width="100%" alt="ArchCanvas, an AI architectural designer: describe your home and get a dimensioned floor plan. The studio takes a brief, drafts the plan in passes, moves a wall from an edit in plain words, lists what it could not get right, then renders and exports it."></a>
+<a href="https://archcanvas.uk/"><img src="./.github/readme/card.svg" width="100%" alt="ArchCanvas, an AI architectural designer: describe your home and get a dimensioned floor plan. The studio takes a brief, drafts the plan in passes, moves a wall from an edit in plain words, lists what it could not get right, then shows it in a 3D preview and exports it."></a>
 
 <br>
 
