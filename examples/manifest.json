@@ -4,10 +4,7 @@
     "title": "Three-bed Family House",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -17,10 +14,7 @@
       "plan.L0.svg",
       "plan.L1.svg",
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -28,10 +22,7 @@
     "title": "Courtyard Apartment",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -39,10 +30,7 @@
     "title": "Bay Bungalow",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -58,10 +46,7 @@
     "title": "Garden Office",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -69,9 +54,7 @@
     "title": "Compact Bedsit",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -79,10 +62,7 @@
     "title": "Corner Cafe",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -90,10 +70,7 @@
     "title": "Gallery Wing",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-exterior.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   },
   {
@@ -101,9 +78,7 @@
     "title": "Accessible Clinic",
     "files": [
       "plan.arch",
-      "plan.svg",
-      "render-aerial.webp",
-      "render-interior.webp"
+      "plan.svg"
     ]
   }
 ]

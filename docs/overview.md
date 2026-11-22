@@ -44,13 +44,11 @@ of rough options you have to choose between blind.
 
 |  |  |  |
 |:-:|:-:|:-:|
-| <img src="../assets/screenshots/hero.webp" alt="The ArchCanvas home page: Describe your home, get a real, dimensioned floor plan, over an empty brief box with a Design my plan button, three example chips (Flat, Bungalow, Café), and a floor plan drawn faintly behind" width="280" /> | <img src="../assets/screenshots/what-you-get.webp" alt="What one brief turns into: a quoted bungalow brief, then its dimensioned floor plan, the 3D preview of the same plan, and a rendering tagged AI-generated impression" width="280" /> | <img src="../assets/screenshots/pricing.webp" alt="Pricing: pay per result — Free $0 for one credit, Starter $10 for five credits, Pro $25 for fifteen credits" width="280" /> |
+| <img src="../assets/screenshots/hero.webp" alt="The ArchCanvas home page: Describe your home, get a real, dimensioned floor plan, over an empty brief box with a Design my plan button, the line Your first design is free and starts now — no account needed, three example chips (Flat, Bungalow, Café), and a floor plan drawn faintly behind" width="280" /> | <img src="../assets/screenshots/what-you-get.webp" alt="What one brief turns into: a quoted L-shaped bungalow brief, then its dimensioned floor plan beside the 3D preview of the same plan" width="280" /> | <img src="../assets/screenshots/pricing.webp" alt="Pricing: pay per result — Free $0 for one credit, Starter $10 for five credits, Pro $25 for fifteen credits" width="280" /> |
 
-<img src="../assets/screenshots/mobile-hero.webp" alt="The ArchCanvas home page on a phone: the headline, the brief box with Design my plan, the Your first design is free line and the three example chips" width="200" />
+<img src="../assets/screenshots/mobile-hero.webp" alt="The ArchCanvas home page on a phone: the headline, the brief box with Design my plan, the line Your first design is free and starts now — no account needed, and the three example chips" width="200" />
 
-<img src="../assets/screenshots/demo.gif" alt="On the ArchCanvas home page, choosing each example (Flat, Bungalow, Café) fills the brief box with that project's brief and redraws the floor plan behind it; then the page scrolls to the plan, 3D preview and rendering that one brief turns into" width="860" />
-
-<sub>These screenshots were taken before 22 November 2026, when ArchCanvas stopped making renderings; the 3D preview is now the picture of the building.</sub>
+<img src="../assets/screenshots/demo.gif" alt="On the ArchCanvas home page, choosing each example (Flat, Bungalow, Café) fills the brief box with that project's brief and redraws the floor plan behind it; then the page scrolls to the floor plan and 3D preview that one brief turns into" width="860" />
 
 </div>
 
@@ -137,8 +135,7 @@ of a design — because it *is* the design.
 ## Gallery
 
 Ten worked examples. Every one ships its source and its compiled sheet in
-[`examples/`](../examples/) — clone the repo and recompile them yourself. Most also keep the
-AI-generated impressions made before ArchCanvas stopped making renderings on 22 November 2026.
+[`examples/`](../examples/) — clone the repo and recompile them yourself.
 
 | | | |
 |:-:|:-:|:-:|
