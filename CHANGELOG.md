@@ -9,6 +9,15 @@ change what you can see or do, it isn't in this file.
 
 ---
 
+## 24 November 2026
+
+- **One free design per person.** Your first account's free design is now given once per person and
+  once per browser: a further account for the same email address, or one made in the same browser,
+  normally starts without it. On a day when many accounts are opened, a first account's free design
+  may be added on a later day instead.
+- **Deleting your account asks for a code.** We email you a 6-digit code; entering it deletes the
+  account, its designs and its sign-in in one step.
+
 ## 22 November 2026
 
 - **Start your first design without an account.** Type a brief on the home page and the design starts

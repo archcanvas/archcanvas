@@ -110,8 +110,9 @@ card.
 Not for your first design. Type a brief on the home page and the design starts at once: you watch it
 draw and can open its 3D preview. To keep it — and refine, download or share it — you create a free
 account in one step, with Google or a 6-digit code sent to your email; there is no password to set.
-Keeping a design you started before signing up uses one credit, which for a new account is its free
-one.
+Keeping a design you started before signing up uses one credit, which for your first account is its
+free one. The free design is given once per person and once per browser: a further account for the
+same email address, or one made in the same browser, normally starts without it.
 
 At times a design cannot be started without an account — for example when one was already started
 from your network that day, or when they are paused for the day. Then you sign up first. A design you
