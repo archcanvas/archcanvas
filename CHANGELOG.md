@@ -13,8 +13,7 @@ change what you can see or do, it isn't in this file.
 
 - **One free design per person.** Your first account's free design is now given once per person and
   once per browser: a further account for the same email address, or one made in the same browser,
-  normally starts without it. On a day when many accounts are opened, a first account's free design
-  may be added on a later day instead.
+  normally starts without it. Your first account gets its free design at once, on any day.
 - **Deleting your account asks for a code.** We email you a 6-digit code; entering it deletes the
   account, its designs and its sign-in in one step.
 
